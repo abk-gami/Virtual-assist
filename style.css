@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: radial-gradient(300deg, #fff, #000); */
+    background: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.static img{
+    height: 400px;
+    width: 400px;
+}
+.talking img{
+    height: 400px;
+    width: 400px;
+    user-select: none;
+    /* display: none; */
+}
+button{
+    padding: 20px 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 1px 1px 36px #9c9c9c;
+    transition: all .4s ease;
+}
+button:hover{
+    background: #2c2323;
+}
+.words{
+    background: #fff;
+    color: #000;
+    margin-top: 30px;
+    padding: 20px 18px;
+    border-radius: 30px;
+}
