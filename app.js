@@ -67,6 +67,10 @@ function speakThis(message) {
         const finalText = "Fuck you gadau";
         speech.text = finalText;
     }
+    else if(message.includes('what is your name')) {
+        const finalText = "my name is SePab";
+        speech.text = finalText;
+    }
     
 
 
