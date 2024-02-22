@@ -77,7 +77,7 @@ function speakThis(message) {
 
     speech.volume = 1;
     speech.pitch = 10;
-    speech.rate = 1;
+    speech.rate = 10;
 
     window.speechSynthesis.speak(speech);
 }
