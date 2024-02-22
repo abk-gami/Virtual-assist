@@ -75,7 +75,7 @@ function speakThis(message) {
 
 
 
-    speech.volume = 1;
+    speech.volume = 10;
     speech.pitch = 1;
     speech.rate = 1;
 
